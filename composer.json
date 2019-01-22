@@ -1,0 +1,15 @@
+{
+    "name": "kerasai/behat-tokenizer",
+    "description": "Token replacement for Behat test suite.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Will Long",
+            "email": "will@kerasai.com"
+        }
+    ],
+    "require": {
+        "behat/behat": "^3.5"
+    }
+}
