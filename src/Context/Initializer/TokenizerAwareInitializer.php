@@ -5,6 +5,7 @@ namespace Kerasai\Behat\Tokenizer\Context\Initializer;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\Initializer\ContextInitializer;
 use Kerasai\Behat\Tokenizer\Tokenizer;
+use Kerasai\Behat\Tokenizer\TokenizerAwareInterface;
 
 /**
  * Class TokenizerAwareInitializer.
