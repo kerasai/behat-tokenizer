@@ -90,7 +90,8 @@ class name may be utilized.
   extensions:
     Kerasai\Behat\Tokenizer\TokenizerExtension:
       replacers:
-        - Kerasai\Behat\Tokenizer\Replacer\TimestampReplacer
+        - Kerasai\Behat\Tokenizer\Replacer\TimestampReplacer:
+            timezone: 'America/New_York'
         - Custom\Replacer\ReplacerNoConfig
         - Custom\Replacer\ReplacerWithConfig:
             config_option_1: abc
