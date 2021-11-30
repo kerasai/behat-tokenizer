@@ -16,6 +16,11 @@ class TimestampReplacer extends ReplacerBase {
       return $value;
     }
 
+    // Set timezone. Do we care to set it back?
+    if (!empty($this->options['timezone'])) {
+      date_default_timezone_set($this->options['timezone']);
+    }
+
     // Process matches.
     foreach ($matches as $match) {
       // Pull out a timestamp and a format.
